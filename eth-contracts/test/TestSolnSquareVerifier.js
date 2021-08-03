@@ -1,6 +1,6 @@
 var SolnSquareVerifier = artifacts.require('SolnSquareVerifier');
 var Verifier = artifacts.require("Verifier");
-var correctProof = require("../contracts/proof-1.json");
+var correctProof = require("../contracts/correct-proof-1.json");
 
 contract('TestSolnSquareVerifier', accounts => {
 

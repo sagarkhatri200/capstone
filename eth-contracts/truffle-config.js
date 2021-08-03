@@ -19,6 +19,7 @@
  */
 
 // const HDWalletProvider = require('truffle-hdwallet-provider');
+const HDWallet = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
 // const fs = require('fs');
@@ -48,6 +49,13 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
       websockets: true
      },
+     
+     rinkeby: {
+      provider: () => new HDWallet("proof dose number used banner move rather worry future aunt park prison", `https://rinkeby.infura.io/v3/d41a546a5f1a4ce9a89d26cc19ba5bf4`),
+        network_id: 4,       // rinkeby's id
+        gas: 4500000,        // rinkeby has a lower block limit than mainnet
+        gasPrice: 10000000000
+    }
 
     // Another network with more advanced options...
     // advanced: {
