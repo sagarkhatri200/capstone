@@ -51,7 +51,7 @@ module.exports = {
      },
      
      rinkeby: {
-      provider: () => new HDWallet("proof dose number used banner move rather worry future aunt park prison", `https://rinkeby.infura.io/v3/d41a546a5f1a4ce9a89d26cc19ba5bf4`),
+      provider: () => new HDWallet("******", `https://rinkeby.infura.io/v3/d41a546a5f1a4ce9a89d26cc19ba5bf4`),
         network_id: 4,       // rinkeby's id
         gas: 4500000,        // rinkeby has a lower block limit than mainnet
         gasPrice: 10000000000
@@ -94,7 +94,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      // version: "0.5.1",    // Fetch exact version from solc-bin (default: truffle's version)
+       version: "0.5.16",    // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
       //  optimizer: {

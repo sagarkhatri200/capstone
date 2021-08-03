@@ -23,7 +23,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 - Web3.js v1.5.0
  
 ##Installation
-- clon the code
+- clone the code
 - Go to root folder
 - npm install
 
@@ -37,7 +37,8 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 # Rinkeby and OpenSea Detail
 
-- Contract Address: https://rinkeby.etherscan.io/address/0x2f503333BF2B7071fE3d6E5d9f1A47ED3b1267Ad
+- Zokrates Verifier Contract Address: https://rinkeby.etherscan.io/address/0x6061EF0ae5D1E507F67c6Cbd22a707719B0e7bBE
+- SolnVerifier Contract Address: https://rinkeby.etherscan.io/address/0x2f503333BF2B7071fE3d6E5d9f1A47ED3b1267Ad
 
 - Store front Deployed manually via truffle: https://testnets.opensea.io/collection/udacity-realstate-token
 
